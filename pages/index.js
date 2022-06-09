@@ -22,7 +22,7 @@ export default function Home({ products }) {
             return (
               <Link href={`/product/${id[lastArr]}`}>
                 <Card>
-                  <Image src={product.images[0].src}></Image>
+                  <Image src={product.images[0].src} />
                   <Card.Content>
                     <Header>
                       {product.title}
