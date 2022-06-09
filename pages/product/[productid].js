@@ -38,7 +38,7 @@ const Post = ({ product }) => {
                             <h1>
                                 {product.title}
                             </h1>
-                            <Image src={image.src}></Image>
+                            <Image src={image.src} />
                         </Row>
                         <Row>
                             <List horizontal divided>
